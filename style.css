@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;   
+}
+.row1{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+.screen{
+    border: 2px solid blue;
+    width: 375px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.previous-screen{
+    font-size: 20px;
+}
+.current-screen{
+    font-size: 30px;
+}
+.rows{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.btn{
+    width: 120px;
+    font-size: 25px;
+}
